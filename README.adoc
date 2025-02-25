@@ -1,0 +1,13 @@
+= wasmtime example
+
+This is an example of how to build and then run WASM code inside a host
+application using libwasmtime.
+
+link:host.c[host.c] is a simple host program that creates a WASM runtime,
+loads a WASM file specified at the command line and runs a function in it.
+Currently it only works with a function called "add".
+
+link:examples[examples] contains examples of programs that can be compiled
+to WASM modules.
+This currently only includes link:examples/add.c[add.c], a module that contains
+a function for adding integers together.
