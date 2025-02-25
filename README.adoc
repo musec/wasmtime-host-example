@@ -12,3 +12,6 @@ This includes link:examples/add.c[add.c], a module that contains a function for
 adding integers together, and link:examples/translate.c[translate.c], a module
 with a `translate` function that inspects and mutates a data buffer within a
 WASM linear memory.
+
+To build, set your version of Clang as `WASM_CC` in the
+link:Makefile[Makefile] and then run `make`.
