@@ -9,5 +9,7 @@ Currently it only works with a function called "add".
 
 link:examples[examples] contains examples of programs that can be compiled
 to WASM modules.
-This currently only includes link:examples/add.c[add.c], a module that contains
-a function for adding integers together.
+This includes link:examples/add.c[add.c], a module that contains a function for
+adding integers together, and link:examples/translate.c[translate.c], a module
+with a `translate` function that inspects and mutates a data buffer within a
+WASM linear memory.
