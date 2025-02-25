@@ -1,7 +1,7 @@
 .PHONY: clean
 .SUFFIXES: .wasm
 
-CFLAGS=		-I /usr/local/include
+CFLAGS=		-g -I /usr/local/include
 LDFLAGS=	-L /usr/local/lib -lwasmtime
 
 WASM_CC=	clang20
